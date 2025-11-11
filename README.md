@@ -14,9 +14,9 @@ However, you'll need [GGCAT](https://github.com/algbio/ggcat)
 in order to compute a colored compacted de Bruijn graph (cdBG) of your multi-fasta file.
 
 ## How to download and compile
-* `git clone https://github.com/CominLab/USTAR-CR`.
+* `git clone https://github.com/CominLab/USTAR-CR`
 * `cd USTAR-CR`
-* `cmake . && make -j 4`.
+* `cmake . && make -j 4`
 
 ## How to run USTARC
 Run GGCAT first: 
@@ -31,7 +31,7 @@ To use the best heuristic, and the optimized RLE for colors, add `-s+u -x-c -e o
 See the help `./ustar -h` for details and advanced options.
 
 
-USTAR-CR produces two separete files, one for the sequences and one the colors.
+USTAR-CR produces two separete files, one for the sequences and one for the colors.
 These files can be merge into a single FASTA file, where the colors are inserted into the headers with a format similar to GGCAT, with the script "fasta-meger.py".
 
 
