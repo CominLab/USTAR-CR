@@ -18,7 +18,7 @@ in order to compute a colored compacted de Bruijn graph (cdBG) of your multi-fas
 * `cd USTAR-CR`
 * `cmake . && make -j 4`
 
-## How to run USTARC
+## How to run USTAR-CR
 Run GGCAT first: 
 * `./GGCAT -k <kmer-size> -e -c <your-multi-fasta>`
 
@@ -42,4 +42,8 @@ If you are using USTAR-CR in your research, please cite (paper under sumbission)
 ```
 USTAR-CR: Efficient and Compact Compression of k-mer Sets Through Colored de Bruijn Graphs
 ```
-.
+
+Enrico Rossignolo and Matteo Comin. Fast and Succinct Compression of k-mer Sets with Plain Text Representation of Colored de Bruijn Graphs. 2025
+In Computational Advances in Bio and Medical Sciences: 13th International Conference, ICCABS 2025, pp.54–65. 
+https://doi.org/10.1007/978-3-032-02489-3_5
+
